@@ -17,10 +17,12 @@ package cmd
 
 import (
 	"fmt"
-	"ilkbyte-cli/utils/client"
-	"ilkbyte-cli/utils/table"
 	"log"
 	"os"
+
+	"github.com/ilkbyte/ilkbyte-cli/utils/table"
+
+	"github.com/ilkbyte/ilkbyte-cli/utils/client"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "ilkbyte-cli/cmd"
+import "github.com/ilkbyte/ilkbyte-cli/cmd"
 
 func main() {
 	cmd.Execute()
