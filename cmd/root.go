@@ -1,5 +1,5 @@
 /*
-Copyright © 2021 NAME HERE <EMAIL ADDRESS>
+Copyright © 2021 Umut Aktepe <umtaktpe@gmail.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -21,6 +21,11 @@ import (
 	"log"
 	"os"
 
+	"github.com/ilkbyte/ilkbyte-cli/cmd/account"
+	"github.com/ilkbyte/ilkbyte-cli/cmd/backup"
+	"github.com/ilkbyte/ilkbyte-cli/cmd/domain"
+	"github.com/ilkbyte/ilkbyte-cli/cmd/server"
+	"github.com/ilkbyte/ilkbyte-cli/cmd/snapshot"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v2"
@@ -42,6 +47,28 @@ func Execute() {
 
 func init() {
 	cobra.OnInitialize(initConfig)
+
+	// Account commands
+	rootCmd.AddCommand(account.AccountCmd)
+
+	// Snapshot commands
+	rootCmd.AddCommand(snapshot.SnapshotCmd)
+
+	// Backup commands
+	rootCmd.AddCommand(backup.BackupCmd)
+
+	// Server commands
+	rootCmd.AddCommand(server.ListCmd)
+	rootCmd.AddCommand(server.ConfigsCmd)
+	rootCmd.AddCommand(server.CreateCmd)
+	rootCmd.AddCommand(server.DetailCmd)
+	rootCmd.AddCommand(server.PowerCmd)
+	rootCmd.AddCommand(server.IpListCmd)
+	rootCmd.AddCommand(server.IpLogsCmd)
+	rootCmd.AddCommand(server.RdnsCmd)
+
+	// Domain commands
+	rootCmd.AddCommand(domain.DomainCmd)
 }
 
 // initConfig reads in config file and ENV variables if set.
