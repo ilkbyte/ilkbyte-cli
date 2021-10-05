@@ -3,7 +3,7 @@ module github.com/ilkbyte/ilkbyte-cli
 go 1.17
 
 require (
-	github.com/ilkbyte/api-go v0.0.0-20210106090802-8f577f7b5ede
+	github.com/ilkbyte/api-go v0.0.0-20211005080001-b9bd379dca26
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/viper v1.9.0

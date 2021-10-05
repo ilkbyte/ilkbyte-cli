@@ -14,4 +14,5 @@ var (
 	ip        string
 	rdns      string
 	opt       string
+	newRdns   string
 )

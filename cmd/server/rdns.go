@@ -34,7 +34,7 @@ var RdnsCmd = &cobra.Command{
 			SecretKey: viper.GetString("ilkbyte.secret_key"),
 		})
 
-		resp, err := c.ServerIPRdns(name, ip, rdns)
+		resp, err := c.ServerIPRdns(name, ip, rdns, opt, newRdns)
 		if err != nil {
 			log.Fatalf("An error occured: %v\n", err)
 		}
@@ -59,4 +59,6 @@ func init() {
 
 	RdnsCmd.Flags().StringVarP(&rdns, "rdns", "r", "", "rdns record")
 	RdnsCmd.MarkFlagRequired("rdns")
+
+	RdnsCmd.Flags().StringVarP(&newRdns, "new-rdns", "", "", "new rdns name")
 }
