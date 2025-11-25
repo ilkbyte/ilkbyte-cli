@@ -190,14 +190,8 @@ github.com/hashicorp/serf v0.8.2/go.mod h1:6hOLApaqBFA1NXqRQAsxw9QxuDEvNxSQRwA/J
 github.com/hashicorp/serf v0.9.5/go.mod h1:UWDWwZeL5cuWDJdl0C6wrvrUwEqtQ4ZKBKKENpqIUyk=
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
-github.com/ilkbyte/api-go v0.0.0-20210106090802-8f577f7b5ede h1:OH4VeDOg8BxwrrPdE0mhFXkec9QNvdwRJyq0HuX3Fyo=
-github.com/ilkbyte/api-go v0.0.0-20210106090802-8f577f7b5ede/go.mod h1:oSf4Yxh65JnXt6fEmRSLGF79HRgZjPHOheyNu/OSVeM=
-github.com/ilkbyte/api-go v0.0.0-20211005080001-b9bd379dca26 h1:8ZaaiPkChi5OiPVfp4pnCIWFL/164ti/Uf429/Illr8=
-github.com/ilkbyte/api-go v0.0.0-20211005080001-b9bd379dca26/go.mod h1:oSf4Yxh65JnXt6fEmRSLGF79HRgZjPHOheyNu/OSVeM=
-github.com/ilkbyte/api-go v0.0.0-20251015125505-51c914ed112b h1:4oq81WhFD/EVcKSasMZNmW2o14m70veYsgAfHn6FAy0=
-github.com/ilkbyte/api-go v0.0.0-20251015125505-51c914ed112b/go.mod h1:oSf4Yxh65JnXt6fEmRSLGF79HRgZjPHOheyNu/OSVeM=
-github.com/ilkbyte/api-go v1.0.0 h1:7cWsFW8h1YD0kt2YGg4oqBUrxRODnzF8e3Ah6LEdzHI=
-github.com/ilkbyte/api-go v1.0.0/go.mod h1:oSf4Yxh65JnXt6fEmRSLGF79HRgZjPHOheyNu/OSVeM=
+github.com/ilkbyte/api-go v1.1.1 h1:x6sf961W/2TX0lg9Gh0IywEg2zf+I3gB5iLFdvimbYo=
+github.com/ilkbyte/api-go v1.1.1/go.mod h1:oSf4Yxh65JnXt6fEmRSLGF79HRgZjPHOheyNu/OSVeM=
 github.com/inconshreveable/mousetrap v1.0.0 h1:Z8tu5sraLXCXIcARxBp/8cbvlwVa7Z1NHg9XEKhtSvM=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
 github.com/json-iterator/go v1.1.11/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=

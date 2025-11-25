@@ -67,6 +67,7 @@ func init() {
 	rootCmd.AddCommand(server.IpLogsCmd)
 	rootCmd.AddCommand(server.RdnsCmd)
 	rootCmd.AddCommand(server.DeleteCmd)
+	rootCmd.AddCommand(server.CreateCustomCmd)
 
 	// Domain commands
 	rootCmd.AddCommand(domain.DomainCmd)

@@ -3,6 +3,7 @@ module github.com/ilkbyte/ilkbyte-cli
 go 1.17
 
 require (
+	github.com/ilkbyte/api-go v1.1.1
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/viper v1.9.0
@@ -12,7 +13,6 @@ require (
 require (
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/ilkbyte/api-go v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
